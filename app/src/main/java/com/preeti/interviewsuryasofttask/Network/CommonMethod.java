@@ -1,4 +1,4 @@
-package com.preeti.interviewsuryasofttask;
+package com.preeti.interviewsuryasofttask.Network;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,12 +8,6 @@ import android.net.NetworkInfo;
 import android.support.v7.app.AlertDialog;
 
 public class CommonMethod {
-
-
-    public static final String DISPLAY_MESSAGE_ACTION =
-            "com.codecube.broking.gcm";
-
-    public static final String EXTRA_MESSAGE = "message";
 
     public  static boolean isNetworkAvailable(Context ctx) {
         ConnectivityManager connectivityManager
